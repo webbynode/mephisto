@@ -1,3 +1,4 @@
+sudo gem install -v 1.9.0 liquid
 sudo gem install tzinfo
 
 cp config/database.yml.tmpl config/database.yml
@@ -15,4 +16,4 @@ production:
     encoding: utf8
 " > config/database.yml
 
-rake db:bootstrap
+rake db:bootstrap RAILS_ENV=production
