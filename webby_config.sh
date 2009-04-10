@@ -13,7 +13,7 @@ production:
 " > config/database.yml
 fi
 
-if [ "${WC_DB_ENGINE}" == "postgressql" ]; then
+if [ "${WC_DB_ENGINE}" == "postgresql" ]; then
 echo "
 production:
     adapter: postgresql
