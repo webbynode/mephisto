@@ -1,6 +1,8 @@
 sudo gem install -v 1.9.0 liquid
 sudo gem install tzinfo
 
+echo WC_DB_ENGINE=${WC_DB_ENGINE}
+
 if [ "${WC_DB_ENGINE}" == "mysql" ]; then
 echo "
 production:
