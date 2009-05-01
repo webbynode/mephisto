@@ -1,3 +1,4 @@
+sudo gem install rails --version=2.2.2 --no-rdoc --no-ri
 sudo gem install -v 1.9.0 liquid
 sudo gem install tzinfo
 
